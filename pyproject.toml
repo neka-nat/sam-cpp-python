@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 tqdm = "^4.66.1"
+requests = "^2.31.0"
 
 [build-system]
 requires = ["scikit-build-core>=0.3.3", "pybind11"]
