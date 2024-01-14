@@ -33,3 +33,8 @@ masks = predictor.predict(np.array([10, 10], dtype=np.float32))
 
 print(masks)
 ```
+
+## Result
+
+![image](examples/img.jpg)
+![masked_image](examples/masked_image.jpg)

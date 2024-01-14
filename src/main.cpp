@@ -46,7 +46,7 @@ public:
         point.y = ptr[1];
         std::vector<sam_image_u8> masks = sam_compute_masks(image_, params_.n_threads, point, *sam_);
         py::array_t<uint8_t> masks_arr;
-        masks_arr.resize({static_cast<int>(masks.size()), image_.nx, image_.ny});
+        masks_arr.resize({static_cast<int>(masks.size()), image_.ny, image_.nx});
         auto buf_masks = masks_arr.request();
         auto ptr_masks = static_cast<uint8_t *>(buf_masks.ptr);
         for (size_t i = 0; i < masks.size(); i++) {
