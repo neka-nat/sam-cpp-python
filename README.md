@@ -5,7 +5,7 @@
 ### From pypi
 
 ```sh
-pip install sam_cpp_python
+pip install sam-cpp-python
 ```
 
 ### From source
