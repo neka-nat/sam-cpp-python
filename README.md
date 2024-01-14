@@ -39,5 +39,4 @@ cv2.imwrite("masked_image.jpg", masked_image)
 
 ## Result
 
-![image](examples/img.jpg)
-![masked_image](examples/masked_image.jpg)
+![demo](examples/sam_cpp_python_demo.gif)
