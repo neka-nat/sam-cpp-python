@@ -4,7 +4,9 @@
 
 ### From pypi
 
-Getting ready...
+```sh
+pip install sam_cpp_python
+```
 
 ### From source
 
